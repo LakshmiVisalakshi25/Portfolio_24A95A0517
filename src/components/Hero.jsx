@@ -41,9 +41,12 @@ function Hero() {
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-5">
 
-            <button className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-semibold hover:bg-cyan-300 transition duration-300">
-              View Projects
-            </button>
+            <a
+  href="#projects"
+  className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-semibold hover:bg-cyan-300 hover:scale-105 transition duration-300 inline-block"
+>
+  View Projects
+</a>
 
            <a
   href={resume}
